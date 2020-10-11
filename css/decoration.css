@@ -1,0 +1,14 @@
+.decoration{
+    display: inline;
+}
+
+.decoration__low{
+    position: relative;
+	top: -57vw;
+    left: 70vw;
+    width: 5vw;
+
+	opacity: 0.5;
+	transform: rotate(90deg);
+	z-index: 200;
+}

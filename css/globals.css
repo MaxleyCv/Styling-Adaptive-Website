@@ -1,0 +1,76 @@
+body{
+	font-family: 'Mulish', sans-serif;
+}
+
+.container{
+    left: 0px;
+    margin: 10vw, auto;
+    max-width: 100%;
+}
+
+a{
+    color: #1F1534;
+	text-decoration: none;
+}
+
+li{
+    display: block;
+}
+
+button{
+    display: flex;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    align-items: center;
+    justify-content: center;
+    color: #458FF6;
+    background-color: white;
+    font-weight: bold;
+    height: 3.5vw;
+    width: 12.5vw;
+    font-size: 18px;
+    line-height: 60px;
+    outline: none;
+}
+
+button:hover {
+    background-color:blue;
+    color: wheat
+}
+
+button:active {
+    box-decoration-break: none;
+  background-color: ivory;
+  color: #000000;
+  box-shadow: 0 5px #666;
+}
+
+.title{
+    font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	color: #000000;
+}
+
+.paragraph{
+    font-weight: 300;
+	font-size: 21px;
+	line-height: 32px;
+	color: #7D7987;
+}
+
+.article-devider{
+    width: 3.5vw;
+	height: 0.12vw;
+	background: #000000;
+	border-radius: 10px;
+}
+
+.block{
+    margin-top: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
