@@ -3,6 +3,7 @@ body{
 }
 
 .container{
+    overflow: hidden;
     left: 0px;
     margin: 10vw, auto;
     max-width: 100%;
@@ -29,8 +30,8 @@ button{
     font-weight: bold;
     height: 3.5vw;
     width: 12.5vw;
-    font-size: 18px;
-    line-height: 60px;
+    font-size: 1.1vw;
+    line-height: 4vw;
     outline: none;
 }
 
@@ -67,10 +68,22 @@ button:active {
 	border-radius: 10px;
 }
 
+@media screen and (min-width: 1001px){
+    .block{
+        margin-top: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+    
+
+@media screen and (max-width: 1000px){
 .block{
     margin-top: 3vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
-
+}

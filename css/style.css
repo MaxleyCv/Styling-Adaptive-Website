@@ -1,4 +1,5 @@
 @import "./normalize.css";
+@import "./reset-min.css";
 
 @import "./globals.css";
 @import "./header.css";

@@ -1,83 +1,99 @@
-.header__top{
+.header__top {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .header__top {
     display: flex;
     justify-content: space-around;
+    flex-direction: row-reverse;
     margin-top: 50px;
+  }
 }
 
-@media (max-width: 700px){
-    .header__top{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row-reverse;
-        margin-top: 50px;
-    }
-}
-
-
-@media (min-width: 700px){
-.header__nav ul{
+@media screen and (min-width: 701px) {
+  .header__nav ul {
     display: flex;
     flex-direction: row;
     font-size: 18px;
-    color: #1F1534;
-}
-}
-
-@media (max-width: 700px){
-    .header__nav ul{
-        display: flex;
-        flex-direction: row;
-        font-size: 18px;
-        color: #1F1534;
-        visibility: hidden;
-    }
-}
-.nav__item:first-of-type{
-    font-weight: bold;
-    opacity: 1;
+    color: #1f1534;
+  }
 }
 
-.nav__item{
-    margin-right: 40px;
-    opacity: 0.5;
+@media screen and (max-width: 700px) {
+  .header__nav ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: #1f1534;
+    visibility: hidden;
+  }
 }
 
-.header__logo{
+.nav__item:first-of-type {
+  font-weight: bold;
+  opacity: 1;
+}
+
+.nav__item {
+  margin-right: 40px;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 701px) {
+  .header__logo {
     display: flex;
     align-items: center;
+  }
 }
 
-.logo__ellipse{
-    font-weight: bold;
-    font-size: 26px;
-    width: 41px;
-    height: 41px;
-    color: white;
-    background: blue;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 12px;
-}
-
-.logo__name{
-    font-weight: 700;
-	font-size: 24px;
-	line-height: 30px;
-	color: #233348;
-}
-
-@media (min-width: 700px){
-    .hamburger{
-        visibility: hidden;
-        height: 0px;
-        width: 0px;
-    }
-}
-
-.hamburger{
+@media screen and (max-width: 700px) {
+  .header__logo {
     position: absolute;
-    display: inline;
-    margin-left: -600px;
+    display: flex;
+    align-items: center;
+    left: 50%;
+  }
+}
+
+.logo__ellipse {
+  font-weight: bold;
+  font-size: 26px;
+  width: 41px;
+  height: 41px;
+  color: white;
+  background: blue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.logo__name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #233348;
+}
+
+
+@media screen and (max-width: 700px) {
+    .hamburger {
+      position: absolute;
+      display: inline;
+      margin-left: -600px;
+      margin-top: -40px;
+    }
+  }
+  
+
+@media screen and (min-width: 701px) {
+  .hamburger {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+  }
 }

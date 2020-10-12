@@ -1,8 +1,25 @@
-.providers__article{
-    width: 30.4vw;
-    height: auto;
-}
+@media screen and (max-width: 1000px){
+    .providers__article{
+        width: 70vw;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        left: 15vw;
+        text-align: center;
+    }
 
+    .block > :nth-of-type(2){
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (min-width: 1000px){
+    .providers__article{
+        width: 30.4vw;
+        height: auto;
+    }
+}
 .providers__img{
     width: 40.6vw;
     margin-right: 10vw;
